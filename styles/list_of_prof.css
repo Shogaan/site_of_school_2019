@@ -1,0 +1,18 @@
+.list_of_proffesions {
+	position: absolute;
+	width: 70%;
+	top: 20vh;
+	left: 15vw;
+}
+
+.element_of_list {
+	width: 15vw;
+}
+
+#subject_or_prof {
+	position: absolute;
+	top: 8.7vh;
+	left: 14vw;
+	font-size: 5vh;
+	font-weight: 600;
+}
