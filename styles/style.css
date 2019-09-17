@@ -1,3 +1,7 @@
+body {
+	font-family: Calibri;
+}
+
 header {
 	text-align: center;
 }
@@ -6,7 +10,6 @@ ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	font-family: arial;
 }
 
 ul li {
@@ -18,9 +21,6 @@ ul li a {
 	text-decoration: none;
 	color: white;
 	display: block;
-}
-
-ul li a:hover {
 }
 
 ul li ul li{
@@ -36,11 +36,6 @@ ul li:hover ul li {
 	background-color: #0395DF;
 }
 
-#ret li a:hover {
-	background-color: none;
-	/*transform: scale(1.1, 1.1);*/
-}
-
 #welcome_text {
 	word-wrap: break-word;
 	text-align: center;
@@ -53,7 +48,7 @@ footer {
 	bottom: 0;
 	left: 0;
 	width: 100%;
-	height: 3.5vw;
+	height: 3.5vw; /* make adaptive */
 	margin: 0 auto;
 	text-align: center;
 }
@@ -69,10 +64,6 @@ footer a:hover {
 
 @media screen and (orientation: landscape)
 {
-	ul {
-		top: 11vh;
-	}
-
 	ul li {
 		width: 12.5vw;
 		height: 4.4vh;
@@ -80,13 +71,9 @@ footer a:hover {
 		font-size: 2.3vh;
 	}
 
-	#prof_dropdown {
-		top: 10vh;
-		left: 0.625vw;
-	}
-
 	#ret {
 		position: absolute;
+		top: 15vh;
 		right: 0.625vw;
 	}
 
@@ -124,6 +111,10 @@ footer a:hover {
 		width: 15vw;
 	}
 
+	footer {
+		font-size: 1vw;
+	}
+
 	footer div {
 		margin-top: .8vw;
 	}
@@ -151,6 +142,7 @@ footer a:hover {
 
 	#ret {
 		position: absolute;
+		top: 13vh;
 		right: 0.625vw;
 	}
 

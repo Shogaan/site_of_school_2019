@@ -1,18 +1,31 @@
 .list_of_proffesions {
+	display: flex;
 	position: absolute;
-	width: 70%;
 	top: 20vh;
 	left: 15vw;
+	width: 70vw;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .element_of_list {
 	width: 15vw;
+	margin: 1vh 1vw;
 }
 
 #subject_or_prof {
-	position: absolute;
-	top: 8.7vh;
-	left: 14vw;
 	font-size: 5vh;
 	font-weight: 600;
+}
+
+.dropdown_and_label {
+	display: flex;
+	flex-direction: column-reverse;
+	position: absolute;
+	top: 8.8vh;
+	left: 0.625vw;
+}
+
+#prof_dropdown {
+	margin-top: -4vh;
 }
