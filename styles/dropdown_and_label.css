@@ -1,0 +1,22 @@
+#subject_or_prof {
+	font-size: 5vh;
+	font-weight: 600;
+}
+
+.dropdown_and_label {
+	display: flex;
+	flex-direction: column;
+}
+
+
+@media screen and (orientation: landscape)
+{
+	.dropdown_and_label {
+		margin-bottom: .5vw;
+	}
+}
+
+@media screen and (orientation: portrait)
+{
+	
+}

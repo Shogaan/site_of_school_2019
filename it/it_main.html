@@ -5,26 +5,34 @@
 		<title>Найди себя!</title>
 		<link href="../styles/style.css" rel="stylesheet" type="text/css"/>
 		<link href="../styles/list_of_prof.css" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" type="text/css" href="../styles/dropdown_and_label.css">
 	</head>
 		
 	<body> 
+
 		<header><img id="head_img" alt="Найди себя" src="../images/find_yourself-title.jpg"></header>
+
+	<div class="content">
 		<div class="dropdown_and_label">
+			<span id="subject_or_prof">&emsp;IT</span>
 			<nav role="navigation">
-				<ul id="prof_dropdown">
+				<ul>
 					<li>
 						<a href="./it_main.html" aria-haspopup="true">Профессии</a>
 						<ul class="dropdown" aria-label="submenu">
-							<li><a href="#">ded</a></li>
+							<li><a href="gamedev.html">Разработчик игр</a></li>
+							<li><a href="#">Инженер-робототехник</a></li>
+							<li><a href="#">Программист</a></li>
+							<li><a href="#">Учитель информатики</a></li>
+							<li><a href="#">Web-программист</a></li>
 						</ul>
 					</li>
 				</ul>
 			</nav>
-			<p id="subject_or_prof">&emsp;IT</p>
 		</div>
 
 		<div class="list_of_proffesions">
-			<a href="#"><img class="element_of_list" src="../images/it/gamedev_new.jpg"></a>
+			<a href="./gamedev.html"><img class="element_of_list" src="../images/it/gamedev_new.jpg"></a>
 			<a href="#"><img class="element_of_list" src="../images/it/ingrobot_new.jpg"></a>
 			<a href="#"><img class="element_of_list" src="../images/it/program_new.jpg"></a>
 			<a href="#"><img class="element_of_list" src="../images/it/uchitinform_new.jpg"></a>
@@ -37,10 +45,13 @@
 				<li><a href="it_main.html">IT направления</a></li>
 			</ul>
 		</nav>
+	</div>
 
 		<footer>
-			<div>©МБОУ СОШ №1 г.Петушки</div>
-			<a id="link_to_main" href="http://filino.ucoz.ru/">На основной сайт</a>
+			<div style="text-align: center;">
+				<span>©МБОУ СОШ №1 г.Петушки</span><br>
+				<a id="link_to_main" href="http://filino.ucoz.ru/">На основной сайт</a>
+			</div>
 			<a id="up_btn" class="topbutton" href="">Наверх</a>
 		</footer>
 	</body>

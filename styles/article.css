@@ -1,0 +1,41 @@
+.article {
+	word-wrap: break-word;
+}
+
+.selection_of_text {
+	font-weight: 700;
+}
+
+.list_of_smth {
+	margin-left: initial;
+	padding: initial;
+	list-style: initial;
+	background-color: initial;
+}
+
+.list_of_smth li {
+	text-align: left;
+	background-color: initial;
+}
+
+@media screen and (orientation: landscape)
+{
+	.article {
+		font-size: 3vh;
+		margin-left: .5vw;
+		margin-right: .5vw;
+	}
+
+	.list_of_smth {
+		margin-left: 1.5vw;
+	}
+
+	.list_of_smth li {
+		font-size: 3vh;
+	}
+}
+
+@media screen and (orientation: portrait)
+{
+	
+}
