@@ -15,6 +15,7 @@
 
 .list_of_smth li {
 	text-align: left;
+	width: initial;
 	background-color: initial;
 }
 
