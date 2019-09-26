@@ -28,12 +28,12 @@
 {
 	.article {
 		font-size: 3vh;
-		margin-left: .5vw;
-		margin-right: .5vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
 	}
 
 	.list_of_smth {
-		margin-left: 1.5vw;
+		margin-left: 3.5vw;
 	}
 
 	.list_of_smth li {
@@ -50,6 +50,12 @@
 
 	.img_in_article {
 		width: 15vw;
+		padding-right: .5vw;
+	}
+
+	iframe {
+		width: 40vw;
+		height: 45vh;
 	}
 }
 
