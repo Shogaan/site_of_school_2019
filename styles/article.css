@@ -16,23 +16,46 @@
 .list_of_smth li {
 	text-align: left;
 	width: initial;
+	height: initial;
 	background-color: initial;
+}
+
+.list_of_smth li a {
+	color: black;
 }
 
 @media screen and (orientation: landscape)
 {
 	.article {
 		font-size: 3vh;
-		margin-left: .5vw;
-		margin-right: .5vw;
+		margin-left: 5vw;
+		margin-right: 5vw;
 	}
 
 	.list_of_smth {
-		margin-left: 1.5vw;
+		margin-left: 3.5vw;
 	}
 
 	.list_of_smth li {
 		font-size: 3vh;
+	}
+
+	.list_of_smth li a {
+		width: 20vw;
+	}
+
+	.list_of_smth li a:hover {
+		transform: scale(1.05, 1.05);
+	}
+
+	.img_in_article {
+		width: 15vw;
+		padding-right: .5vw;
+	}
+
+	iframe {
+		width: 40vw;
+		height: 45vh;
 	}
 }
 
