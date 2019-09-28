@@ -24,6 +24,14 @@
 	color: black;
 }
 
+#grid_for_teacher {
+	display: grid;
+}
+
+.preface {
+	text-align: right;
+}
+
 @media screen and (orientation: landscape)
 {
 	.article {
@@ -51,6 +59,16 @@
 	.img_in_article {
 		width: 15vw;
 		padding-right: .5vw;
+	}
+
+	.preface {
+		font-size: 1.9vh;
+	}
+
+	#grid_for_teacher {
+		font-size: 2.3vh;
+		grid-template-columns: 11vw 10vw;
+		grid-column-gap: 1vw;
 	}
 
 	iframe {
