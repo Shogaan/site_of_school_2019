@@ -79,5 +79,45 @@
 
 @media screen and (orientation: portrait)
 {
-	
+	.article {
+		font-size: 1.3vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	.list_of_smth {
+		margin-left: 3.5vw;
+	}
+
+	.list_of_smth li {
+		font-size: 1.3vh;
+	}
+
+	.list_of_smth li a {
+		width: 30vw;
+	}
+
+	.list_of_smth li a:hover {
+		transform: scale(1.05, 1.05);
+	}
+
+	.img_in_article {
+		width: 25vw;
+		padding-right: .5vw;
+	}
+
+	.preface {
+		font-size: .8vh;
+	}
+
+	#grid_for_teacher {
+		font-size: .8vh;
+		grid-template-columns: 11vw 10vw;
+		grid-column-gap: 1vw;
+	}
+
+	iframe {
+		width: 20vw;
+		height: 10vh;
+	}
 }

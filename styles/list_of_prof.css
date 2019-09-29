@@ -15,5 +15,13 @@
 
 @media screen and (orientation: portrait)
 {
-	
+	.list_of_proffesions {
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.element_of_list {
+		width: 35vw;
+		margin: .5vh 7.5vw;
+	}
 }

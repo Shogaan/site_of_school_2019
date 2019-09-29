@@ -141,50 +141,59 @@ footer a:hover {
 
 @media screen and (orientation: portrait)
 {
-	ul {
-		top: 13vh;
-	}
-
 	ul li {
-		width: 17vw;
-		height: 1.6vh;
-		line-height: 1.6vh;
-		font-size: 1.37vh;
-		margin-bottom: .25vh;
+		width: 24vw;
+		height: 2vh;
+		line-height: 2vh;
+		font-size: 1.3vh;
 	}
 
-	#ret {
-		position: absolute;
-		top: 13vh;
-		right: 0.625vw;
+	footer {
+		height: 2.8vh;
+		padding-top: .5vh;
+		font-size: 1vh;
 	}
 
 	#ret li {
-		float: none;
 		border: .3vw solid #0395DF;
 		border-radius: .6rem;
+		margin-bottom: .25vh;
+	}
+
+	#ret li:hover {
+		transform: scale(1.05, 1.05);
 	}
 
 	#welcome_text {
-		margin: 0 20vw;
-		font-size: 1.5vh;
+		grid-area: welcome_txt;
+		font-size: 1.2vh;
 	}
 
 	#head_img {
-		width: 100vw;
+		width: 97vw;
 	}
 
 	#index_img_1 {
-		position: absolute;
-		bottom: 14vh;
-		left: 9.5vw;
-		width: 38vw;
+		grid-area: img_1;
+		width: 30vw;
+		/*padding-right: 1vw;*/
 	}
 
 	#index_img_2 {
-		position: absolute;
-		bottom: 14vh;
-		right: 9.5vw;
-		width: 38vw;
+		grid-area: img_2;
+		width: 30vw;
+		/*padding-left: 1vw;*/
 	}
+
+	.welcome_shit {
+		margin-left: 12vw;
+		margin-right: 1vw;
+		height: 60vh;
+		grid-template-columns: 30vw 30vw;
+		grid-template-rows: auto;
+		grid-template-areas: "welcome_txt welcome_txt"
+							"img_1 img_2";
+		grid-column-gap: 1vw;
+	}
+
 }

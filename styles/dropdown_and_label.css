@@ -1,5 +1,4 @@
 #subject_or_prof {
-	font-size: 3vh;
 	font-weight: 600;
 	word-wrap: break-word;
 }
@@ -12,6 +11,10 @@
 
 @media screen and (orientation: landscape)
 {
+	#subject_or_prof {
+	font-size: 3vh;
+	}
+
 	.dropdown_and_label {
 		margin-bottom: .5vw;
 	}
@@ -19,5 +22,11 @@
 
 @media screen and (orientation: portrait)
 {
-	
+	#subject_or_prof {
+	font-size: 2.2vh;
+	}
+
+	.dropdown_and_label {
+		margin-bottom: .5vh;
+	}
 }
