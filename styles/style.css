@@ -14,8 +14,10 @@ header {
 }
 
 .content {
-	display: flex;
-	flex-direction: row;
+	/*display: flex;
+	flex-direction: row;*/
+	display: grid;
+
 	flex: 1 0 auto;
 }
 
@@ -85,7 +87,7 @@ footer a:hover {
 {
 	ul li {
 		width: 12.5vw;
-		height: 4.4vh;
+		/*height: 4.4vh;*/
 		line-height: 4.4vh;
 		font-size: 2.3vh;
 	}
@@ -93,14 +95,24 @@ footer a:hover {
 	footer {
 		height: 6.5vh;
 		padding-top: .5vh;
-		font-size: 1vw;
+		font-size: 1.8vh;
+	}
+
+	.content {
+		grid-template-columns: 14% 72% 13%;
 	}
 
 	.welcome_shit {
-		margin-left: 18vw;
-		margin-right: 2vw;
-		grid-template-columns: 17vw 30vw 17vw;
-		grid-column-gap: 1vw;
+		/*margin-left: 18vw;
+		margin-right: 2vw;*/
+		/*margin-left: 18%;
+		margin-right: 2%;*/
+		grid-template-columns: 24% 49% 24%;
+		grid-column-gap: .5%;
+	}
+
+	#ret {
+		/*width: calc(100% + 1);*/
 	}
 
 	#ret li {
@@ -122,11 +134,13 @@ footer a:hover {
 	}
 
 	#index_img_1 {
-		height: 70vh;
+		/*height: 70vh;*/
+		width: 100%;
 	}
 
 	#index_img_2 {
-		height: 70vh;
+		/*height: 70vh;*/
+		width: 100%;
 	}
 
 	#up_btn {
@@ -155,7 +169,7 @@ footer a:hover {
 	}
 
 	#ret li {
-		border: .3vw solid #0395DF;
+		border: .15rem solid #0395DF;
 		border-radius: .6rem;
 		margin-bottom: .25vh;
 	}
