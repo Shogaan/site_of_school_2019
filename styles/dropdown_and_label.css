@@ -4,6 +4,7 @@
 }
 
 .dropdown_and_label {
+	grid-area: dropdown;
 	display: flex;
 	flex-direction: column;
 }
@@ -26,7 +27,7 @@
 	font-size: 2.2vh;
 	}
 
-	.dropdown_and_label {
-		margin-bottom: .5vh;
+	.dropdown_and_label ul {
+		display: none;
 	}
 }

@@ -15,13 +15,22 @@
 
 @media screen and (orientation: portrait)
 {
+	.content {
+		grid-template-columns: 80% 10%;
+		grid-template-rows: auto auto;
+		grid-template-areas: 
+							"dropdown list_of_subjects"
+							"list_of_prof list_of_subjects";
+	}
+
 	.list_of_proffesions {
+		grid-area: list_of_prof;
 		flex-direction: column;
 		justify-content: flex-start;
+		align-content: center;
 	}
 
 	.element_of_list {
-		width: 35vw;
-		margin: .5vh 7.5vw;
+		width: 45vw;
 	}
 }

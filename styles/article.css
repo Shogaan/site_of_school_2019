@@ -1,4 +1,5 @@
 .article {
+	grid-area: article;
 	word-wrap: break-word;
 }
 
@@ -34,6 +35,10 @@
 
 @media screen and (orientation: landscape)
 {
+	.content {
+		grid-template-areas: "dropdown article list_of_subjects";
+	}
+
 	.article {
 		font-size: 3vh;
 		margin-left: 5vw;
@@ -79,8 +84,16 @@
 
 @media screen and (orientation: portrait)
 {
+	.content {
+		grid-template-columns: 75% 10%;
+		grid-template-rows: auto;
+		grid-template-areas:
+							"dropdown list_of_subjects"
+							"article list_of_subjects"
+	}
+
 	.article {
-		font-size: 1.3vh;
+		font-size: 1.5vh;
 		margin-left: 1vw;
 		margin-right: 1vw;
 	}
@@ -90,20 +103,17 @@
 	}
 
 	.list_of_smth li {
-		font-size: 1.3vh;
+		font-size: 1.5vh;
 	}
 
 	.list_of_smth li a {
 		width: 30vw;
 	}
 
-	.list_of_smth li a:hover {
-		transform: scale(1.05, 1.05);
-	}
-
 	.img_in_article {
 		width: 25vw;
 		padding-right: .5vw;
+		padding-left: .5vw;
 	}
 
 	.preface {

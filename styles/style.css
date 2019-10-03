@@ -1,5 +1,5 @@
 html {
-	height: 100%;
+	height: 99%;
 }
 
 body {
@@ -14,8 +14,6 @@ header {
 }
 
 .content {
-	/*display: flex;
-	flex-direction: row;*/
 	display: grid;
 
 	flex: 1 0 auto;
@@ -23,6 +21,7 @@ header {
 
 .welcome_shit {
 	display: grid;
+	grid-area: welcome_shit;
 }
 
 header {
@@ -52,6 +51,10 @@ ul li ul li{
 
 ul li:hover ul li {
 	display: block;
+}
+
+#list_of_subjects {
+	grid-area: list_of_subjects;
 }
 
 #ret li a {
@@ -100,6 +103,7 @@ footer a:hover {
 
 	.content {
 		grid-template-columns: 14% 72% 13%;
+		grid-template-areas: "dropdown welcome_shit list_of_subjects";
 	}
 
 	.welcome_shit {
@@ -168,14 +172,18 @@ footer a:hover {
 		font-size: 1vh;
 	}
 
+	.content {
+		grid-template-columns: 80% 10%;
+		grid-template-rows: 1% auto;
+		grid-template-areas:
+							"dropdown list_of_subjects"
+							"welcome_shit list_of_subjects";
+	}
+
 	#ret li {
 		border: .15rem solid #0395DF;
 		border-radius: .6rem;
 		margin-bottom: .25vh;
-	}
-
-	#ret li:hover {
-		transform: scale(1.05, 1.05);
 	}
 
 	#welcome_text {
