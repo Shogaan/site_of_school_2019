@@ -90,7 +90,6 @@ footer a:hover {
 {
 	ul li {
 		width: 12.5vw;
-		/*height: 4.4vh;*/
 		line-height: 4.4vh;
 		font-size: 2.3vh;
 	}
@@ -107,16 +106,8 @@ footer a:hover {
 	}
 
 	.welcome_shit {
-		/*margin-left: 18vw;
-		margin-right: 2vw;*/
-		/*margin-left: 18%;
-		margin-right: 2%;*/
 		grid-template-columns: 24% 49% 24%;
 		grid-column-gap: .5%;
-	}
-
-	#ret {
-		/*width: calc(100% + 1);*/
 	}
 
 	#ret li {
@@ -173,8 +164,9 @@ footer a:hover {
 	}
 
 	.content {
-		grid-template-columns: 80% 10%;
+		grid-template-columns: 74% 10%;
 		grid-template-rows: 1% auto;
+		grid-column-gap: 1%;
 		grid-template-areas:
 							"dropdown list_of_subjects"
 							"welcome_shit list_of_subjects";
@@ -198,17 +190,15 @@ footer a:hover {
 	#index_img_1 {
 		grid-area: img_1;
 		width: 30vw;
-		/*padding-right: 1vw;*/
 	}
 
 	#index_img_2 {
 		grid-area: img_2;
 		width: 30vw;
-		/*padding-left: 1vw;*/
 	}
 
 	.welcome_shit {
-		margin-left: 12vw;
+		margin-left: 10vw;
 		margin-right: 1vw;
 		height: 60vh;
 		grid-template-columns: 30vw 30vw;
