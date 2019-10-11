@@ -1,6 +1,7 @@
 .article {
 	grid-area: article;
 	word-wrap: break-word;
+	text-align: justify;
 }
 
 .selection_of_text {
@@ -64,6 +65,7 @@
 	.img_in_article {
 		width: 15vw;
 		padding-right: .5vw;
+		padding-left: .5vw;
 	}
 
 	.preface {
@@ -74,6 +76,7 @@
 		font-size: 2.3vh;
 		grid-template-columns: 11vw 10vw;
 		grid-column-gap: 1vw;
+		padding-left: .5vw;
 	}
 
 	iframe {
