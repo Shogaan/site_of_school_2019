@@ -130,12 +130,10 @@ footer a:hover {
 	}
 
 	#index_img_1 {
-		/*height: 70vh;*/
 		width: 100%;
 	}
 
 	#index_img_2 {
-		/*height: 70vh;*/
 		width: 100%;
 	}
 
@@ -180,7 +178,7 @@ footer a:hover {
 
 	#welcome_text {
 		grid-area: welcome_txt;
-		font-size: 1.2vh;
+		font-size: 1.5vh;
 	}
 
 	#head_img {

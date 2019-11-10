@@ -147,12 +147,14 @@
 		font-size: .8vh;
 		grid-template-columns: 11vw 10vw;
 		grid-column-gap: 1vw;
+		padding-left: 1vw;
 	}
 
 	#grid_for_designer {
 		font-size: .8vh;
 		grid-template-columns: 11vw 8vw;
 		grid-column-gap: 1vw;
+		padding-left: 1vw;
 	}
 
 	iframe {
