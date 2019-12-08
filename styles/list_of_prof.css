@@ -18,7 +18,7 @@
 	.content {
 		grid-template-columns: 74% 10%;
 		grid-template-rows: auto auto;
-		grid-template-areas: 
+		grid-template-areas:
 							"dropdown list_of_subjects"
 							"list_of_prof list_of_subjects";
 	}
